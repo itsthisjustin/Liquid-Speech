@@ -1,6 +1,6 @@
 # Liquid Speech
 
-**Liquid Speech** - Real-time speech-to-text transcription for iOS and macOS using Apple's native SpeechAnalyzer API.
+**Liquid Speech** - Real-time speech-to-text transcription for Flutter on iOS and macOS using Apple's native SpeechAnalyzer API
 
 A Flutter package that provides native iOS 26+ and macOS 26+ real-time speech-to-text transcription with graceful fallback support for older OS versions.
 
