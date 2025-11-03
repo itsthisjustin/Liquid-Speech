@@ -1,9 +1,17 @@
 name: liquid_speech
 description: Real-time speech-to-text transcription for iOS and macOS using Apple's native SpeechAnalyzer API. Provides raw transcript updates with graceful fallback for older OS versions.
 version: 0.1.0
-homepage: https://github.com/cleftai/amber-flutter
-repository: https://github.com/cleftai/amber-flutter
-documentation: https://github.com/cleftai/amber-flutter/tree/main/packages/liquid_speech
+homepage: https://github.com/itsthisjustin/Liquid-Speech
+repository: https://github.com/itsthisjustin/Liquid-Speech
+issue_tracker: https://github.com/itsthisjustin/Liquid-Speech/issues
+topics:
+  - speech-recognition
+  - speech-to-text
+  - ios
+  - macos
+  - transcription
+  - apple
+  - speech-analyzer
 
 environment:
   sdk: '>=3.5.0 <4.0.0'
