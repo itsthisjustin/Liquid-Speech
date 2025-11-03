@@ -1,6 +1,6 @@
 name: liquid_speech
 description: Real-time speech-to-text transcription for iOS and macOS using Apple's native SpeechAnalyzer API. Provides raw transcript updates with graceful fallback for older OS versions.
-version: 0.1.0
+version: 0.1.1
 homepage: https://github.com/itsthisjustin/Liquid-Speech
 repository: https://github.com/itsthisjustin/Liquid-Speech
 issue_tracker: https://github.com/itsthisjustin/Liquid-Speech/issues
