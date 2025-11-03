@@ -106,7 +106,6 @@ public class SpeechAnalyzerHandler {
                         "event": "transcriptionUpdate",
                         "transcript": plainText,
                         "isFinal": result.isFinal,
-                        "confidence": 0.0,
                         "timestamp": Date().timeIntervalSince1970
                     ])
                 }

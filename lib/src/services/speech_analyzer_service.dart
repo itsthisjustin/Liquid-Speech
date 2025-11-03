@@ -57,7 +57,6 @@ class SpeechAnalyzerService {
         case 'transcriptionUpdate':
           final transcript = data['transcript'] as String? ?? '';
           final isFinal = data['isFinal'] as bool? ?? false;
-          final confidence = (data['confidence'] as num?)?.toDouble() ?? 0.0;
 
           _currentTranscript = transcript;
 
@@ -66,7 +65,6 @@ class SpeechAnalyzerService {
               type: 'update',
               transcript: transcript,
               isFinal: isFinal,
-              confidence: confidence,
               timestamp: DateTime.now(),
             ),
           );

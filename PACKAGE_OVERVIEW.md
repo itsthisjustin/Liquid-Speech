@@ -69,7 +69,7 @@ speech_analyzer/
 
 #### `lib/src/models/transcription_event.dart`
 - **Purpose:** Data model for transcription events
-- **Contains:** Event type, transcript, confidence, timestamp, error info
+- **Contains:** Event type, transcript, timestamp, error info
 - **Usage:** Received via `SpeechAnalyzerService.transcriptionEvents` stream
 
 #### `lib/src/services/speech_analyzer_service.dart`
@@ -235,7 +235,6 @@ speech_analyzer/
   'event': String,              // 'started', 'update', 'stopped', 'error'
   'transcript': String?,        // Text (for update/stopped)
   'isFinal': bool?,            // Is final (for update)
-  'confidence': double?,       // Confidence 0.0-1.0 (for update)
   'error': String?,            // Error message (for error)
   'timestamp': double          // Unix timestamp
 }
@@ -398,7 +397,6 @@ To publish this package publicly:
 
 ### Short-term
 - [ ] Add configurable language selection
-- [ ] Add confidence score support (if API exposes it)
 - [ ] Add unit tests
 - [ ] Add widget examples
 

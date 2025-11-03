@@ -205,7 +205,6 @@ _speechAnalyzer.transcriptionEvents.listen((event) {
     case 'update':
       print('Text: ${event.transcript}');
       print('Is final: ${event.isFinal}');
-      print('Confidence: ${event.confidence}');
       break;
     case 'stopped':
       print('Transcription stopped. Final: ${event.transcript}');
@@ -249,7 +248,6 @@ class TranscriptionEvent {
   String type;                 // 'started', 'update', 'stopped', 'error'
   String? transcript;          // Transcribed text
   bool isFinal;               // Whether transcript is final
-  double confidence;          // Confidence score (0.0-1.0)
   DateTime timestamp;         // When the event occurred
   String? error;              // Error message if type == 'error'
 }
@@ -310,8 +308,7 @@ The plugin automatically registers on app startup via the Flutter plugin system 
 ## Known Limitations
 
 1. **Single Language**: Currently hardcoded to `en_US`. Future versions will support language selection.
-2. **No Confidence Scores**: The native API doesn't expose confidence values, so all scores are 0.0.
-3. **iOS/macOS Only**: Android support is not currently implemented.
+2. **iOS/macOS Only**: Android support is not currently implemented.
 
 ## Troubleshooting
 

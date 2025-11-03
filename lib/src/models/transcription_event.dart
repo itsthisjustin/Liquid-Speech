@@ -9,9 +9,6 @@ class TranscriptionEvent {
   /// Whether this transcript is final (user has paused/stopped speaking)
   final bool isFinal;
 
-  /// Confidence score from the speech recognizer (0.0-1.0)
-  final double confidence;
-
   /// Timestamp when the event was generated
   final DateTime timestamp;
 
@@ -22,7 +19,6 @@ class TranscriptionEvent {
     required this.type,
     this.transcript,
     this.isFinal = false,
-    this.confidence = 0.0,
     required this.timestamp,
     this.error,
   });
