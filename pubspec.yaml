@@ -5,13 +5,11 @@ homepage: https://github.com/itsthisjustin/Liquid-Speech
 repository: https://github.com/itsthisjustin/Liquid-Speech
 issue_tracker: https://github.com/itsthisjustin/Liquid-Speech/issues
 topics:
-  - speech-recognition
   - speech-to-text
+  - speech-analyzer
   - ios
   - macos
   - transcription
-  - apple
-  - speech-analyzer
 
 environment:
   sdk: '>=3.5.0 <4.0.0'
