@@ -340,6 +340,10 @@ flutter run
 
 Contributions are welcome! Please file issues and submit pull requests on GitHub.
 
+## Attribution
+
+Built by **Cleft AI LTD** for [WithAmber.com](https://withamber.com) and the Amber Writing app. Open sourced for the community to enable real-time speech-to-text transcription on iOS and macOS.
+
 ## License
 
 MIT
